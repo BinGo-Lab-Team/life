@@ -1,5 +1,9 @@
 # life
 
+[![Go Reference][godoc-badge]][godoc-link]
+[![Go Report Card][goreport-badge]][goreport-link]
+[![License][license-badge]][license-link]
+
 `life` is a **minimal goroutine lifecycle convergence utility**.
 
 This package **cannot** and should not control goroutine termination.
@@ -132,3 +136,12 @@ It is not a general concurrency framework.
 ## License
 
 This project released under [MIT License](./LICENSE)
+
+[godoc-badge]: https://pkg.go.dev/badge/github.com/BinGo-Lab-Team/life.svg
+[godoc-link]: https://pkg.go.dev/github.com/BinGo-Lab-Team/life
+
+[goreport-badge]: https://goreportcard.com/badge/github.com/BinGo-Lab-Team/life
+[goreport-link]: https://goreportcard.com/report/github.com/BinGo-Lab-Team/life
+
+[license-badge]: https://img.shields.io/github/license/BinGo-Lab-Team/life
+[license-link]: https://github.com/BinGo-Lab-Team/life/blob/main/LICENSE
