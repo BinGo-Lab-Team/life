@@ -9,6 +9,12 @@
 This package **cannot** and should not control goroutine termination.
 Goroutine shutdown and resource cleanup are the responsibility of the goroutines themselves.
 
+## Install
+
+``` bash
+go get github.com/Jeffail/tunny
+```
+
 ## Problem
 
 During program shutdown, Go code commonly runs into subtle and dangerous issues:
