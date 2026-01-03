@@ -12,7 +12,7 @@ Goroutine shutdown and resource cleanup are the responsibility of the goroutines
 ## Install
 
 ``` bash
-go get github.com/Jeffail/tunny
+go get github.com/BinGo-Lab-Team/life
 ```
 
 ## Problem
